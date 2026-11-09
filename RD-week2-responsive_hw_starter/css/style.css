@@ -42,6 +42,36 @@ div{
   margin: 5px;
   padding: 2px;
 }
+main div {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main div img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 772px) {
+  main div {
+    display: inline-block; 
+    width: 45%;            
+    vertical-align: top;
+    margin: 2.5%;          
+  }
+
+  main div img {
+    max-height: 30vh;      
+    width: auto;          
+  }
+}
+@media screen and (min-width: 998px) {
+  main div {
+    width: 30%;            
+    margin: 1.5%;         
+  }
+}
 
 
 
